@@ -1,0 +1,21 @@
+shouldCreate:
+    input:  >-
+        {
+          "description": "PNEU PIRELLI",
+          "quantity": 100,
+          "price": 200,
+          "category": {
+              "id": 2003
+          }
+        }
+
+shouldChange:
+    input:  >-
+        {
+          "description": "VOLANTE DE CARRO ALTERADO",
+          "quantity": 30,
+          "price": 3000,
+          "category": {
+              "id": 2003
+          }
+        }

@@ -1,0 +1,12 @@
+shouldChange:
+    input:  >-
+        {
+          "status": "PROGRESS"
+        }
+
+shouldAddItemInOrder:
+    input:  >-
+        {
+          "productId": 3001,
+          "quantity": 1
+        }

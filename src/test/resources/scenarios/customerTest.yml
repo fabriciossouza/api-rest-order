@@ -1,0 +1,23 @@
+shouldCreate:
+    input:  >-
+        {
+          "name": "Jose Novo",
+          "email": "josenovo@gmail.com",
+          "password": "pass",
+          "street": "Rua Y",
+          "city": "São Paulo",
+          "district": "Centro",
+          "cep": "04216030"
+        }
+
+shouldTryCreateWithEmailExisting:
+    input:  >-
+        {
+          "name": "Email existing",
+          "email": "user@user.com",
+          "password": "pass",
+          "street": "Rua do interior",
+          "city": "Piata",
+          "district": "Centro",
+          "cep": "46765000"
+        }

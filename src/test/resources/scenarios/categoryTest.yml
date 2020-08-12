@@ -1,0 +1,22 @@
+shouldCreate:
+    input:  >-
+        {
+          "name": "ELETRONICO"
+        }
+
+shouldTryCreateWithExistingName:
+    input:  >-
+        {
+          "name": "ALIMENTACAO"
+        }
+
+shouldChange:
+    input:  >-
+        {
+          "name": "CATEGORIA ALTERADA"
+        }
+    output:  >-
+        {
+          "id": 2002,
+          "name": "CATEGORIA ALTERADA"
+        }
